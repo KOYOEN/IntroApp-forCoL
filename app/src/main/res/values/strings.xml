@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project_SW</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="popup_text1_default">강의가 끝났습니다!</string>
+    <string name="popup_text2_default">퀴즈로 넘어가시겠습니까?</string>
+    <string name="popup_title_default">선택해주세요</string>
+</resources>

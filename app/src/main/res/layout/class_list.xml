@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundColor"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/TV1"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:text="CoL 강의 리스트"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="?attr/fontColor"/>
+
+        <Button
+            android:id="@+id/btn_class1"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 0.  CoL이란?"
+            android:textSize="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 1.  Atomic Task"
+            android:textSize="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class3"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 2.  Choose"
+            android:textSize="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class4"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 3.  XXXXX"
+            android:textSize="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class5"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 4.  XXXXX"
+            android:textSize="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class6"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 5.  XXXXXX"
+            android:textSize="22dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class7"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 6.  XXXXXX"
+            android:textSize="22dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/btn_class8"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="       Chapter 7.  XXXXXX"
+            android:textSize="22dp"
+            android:background="?attr/xmlButtonColor"
+            android:textColor="?attr/fontColor"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"
+            />
+
+</LinearLayout>

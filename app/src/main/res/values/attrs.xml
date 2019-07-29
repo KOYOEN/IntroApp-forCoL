@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds" >
+        <attr name="backgroundColor" format="color"/>
+        <attr name="popupColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="xmlButtonColor" format="color"/>
+        <attr name="xmlPicColor" format="color"/>
+        <attr name="progressBarColor" format="color"/>
+        <attr name="QnAColor" format="color"/>
+        <attr name="fontColor" format="color"/>
+    </declare-styleable>
+</resources>

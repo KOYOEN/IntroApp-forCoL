@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Lecfirst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jihwa.project_sw.LecFirst">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backgroundColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp">
+
+
+            <Button
+                android:id="@+id/btn_lectureList"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/menuicon"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CoL 이란?"
+                    android:textSize="25dp"
+                    android:textColor="?attr/fontColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/skipicon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1770"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1500"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.example.jihwa.project_sw.TypingText
+                        android:id="@+id/tv_lectureContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/fontColor"
+                        android:textSize="18dp"
+                        android:text="강의 내용"/>
+
+
+                    <com.example.jihwa.project_sw.TypingText
+                        android:id="@+id/tv_lectureContent2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/fontColor"
+                        android:textSize="18dp"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_pluscontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="130"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="?attr/buttonColor"
+                android:text="더보기"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="90"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lecturecontentfirst"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?attr/popupColor"
+        android:orientation="vertical">
+
+        <include layout="@layout/drawer" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

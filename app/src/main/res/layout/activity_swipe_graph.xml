@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jihwa.project_sw.SwipeGraph"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?attr/backgroundColor"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:text="현재 강의수강률"/>
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/circleView"
+            android:layout_width="277dp"
+            android:layout_height="277dp"
+            CircleProgressView:cpv_autoTextColor="true"
+            CircleProgressView:cpv_autoTextSize="true"
+            CircleProgressView:cpv_barColor="?attr/progressBarColor"
+            CircleProgressView:cpv_barWidth="35dp"
+            CircleProgressView:cpv_innerContourSize="0dp"
+            CircleProgressView:cpv_maxValue="100"
+            CircleProgressView:cpv_outerContourSize="0dp"
+            CircleProgressView:cpv_rimColor="?attr/backgroundColor"
+            CircleProgressView:cpv_rimWidth="35dp"
+            CircleProgressView:cpv_seekMode="false"
+            CircleProgressView:cpv_showUnit="true"
+            CircleProgressView:cpv_spinColor="?attr/progressBarColor"
+            CircleProgressView:cpv_textColor="?attr/progressBarColor"
+            CircleProgressView:cpv_textScale="1"
+            CircleProgressView:cpv_unit="%"
+            CircleProgressView:cpv_unitColor="?attr/backgroundColor"
+            CircleProgressView:cpv_unitPosition="right_top"
+            CircleProgressView:cpv_unitScale="1"
+            CircleProgressView:cpv_value="10"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:layout_marginTop="20dp"
+            android:text="왼쪽으로 넘겨주세요!"/>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="CoL 퀴즈 리스트"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btn_quiz1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 1.  Atomic Task"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+
+        />
+
+    <Button
+        android:id="@+id/btn_quiz2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 2.  Choose"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        />
+
+    <Button
+        android:id="@+id/btn_quiz3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 3.  XXXXX"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        />
+
+    <Button
+        android:id="@+id/btn_quiz4"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 4.  XXXXX"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        />
+
+    <Button
+        android:id="@+id/btn_quiz5"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 5.  XXXXX"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        />
+
+    <Button
+    android:id="@+id/btn_quiz6"
+    android:layout_width="320dp"
+    android:layout_height="50dp"
+    android:text="       Chapter 6.  XXXXX"
+    android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+    android:textColor="#000000"
+    android:textAllCaps="false"
+    android:textAlignment="viewStart"
+    />
+
+    <Button
+        android:id="@+id/btn_quiz7"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="       Chapter 7.  XXXXX"
+        android:textSize="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/xmlButtonColor"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        />
+
+
+
+</LinearLayout>

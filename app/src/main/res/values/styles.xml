@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/colorBeigeWhite</item>
+        <item name="popupColor">@color/colorBeige</item>
+        <item name="buttonColor">@color/colorBeigeDark</item>
+        <item name="xmlButtonColor">@drawable/button_round_beige</item>
+        <item name="xmlPicColor">@drawable/ic_mission_beige</item>
+        <item name="progressBarColor">@color/colorBrownYellow</item>
+        <item name="QnAColor">@color/colorBrownDown</item>
+        <item name="fontColor">@color/colorBlack</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="ShiftTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/colorPinkWhite</item>
+        <item name="popupColor">@color/colorPink</item>
+        <item name="buttonColor">@color/colorPinkDown</item>
+        <item name="xmlButtonColor">@drawable/button_round_pink</item>
+        <item name="xmlPicColor">@drawable/ic_mission_pink</item>
+        <item name="progressBarColor">@color/colorPinkDark</item>
+        <item name="QnAColor">@color/colorPinkDown</item>
+        <item name="fontColor">@color/colorBlack</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
